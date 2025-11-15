@@ -1,4 +1,14 @@
+body {
+   background: linear-gradient(
+     -45deg,
+     #1b1b1b 0%,
+     #2b2c2b 100%
+   );
+}
+
 h1 {
-    color: yellow;
-    text-align: center;
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px 4px black;
+    font-size: 5vw;
 }
