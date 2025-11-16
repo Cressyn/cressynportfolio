@@ -9,19 +9,21 @@ body {
    
 }
 
+
+@media (min-aspect-ratio: 3/4) {
 h1 {
     color: white;
     text-align: left;
     text-shadow: 1px 1px 4px black;
-    font-size: 7vw;
+    font-size: 5vw;
     padding-left:2vw;
 }
-@media (min-aspect-ratio: 3/4) {
+}
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right:20vw
+  margin-right:24vw
   
 }
 
@@ -34,9 +36,9 @@ h1 {
 
 .topbar nav a {
   color: white;
-  margin-left: 8vw;
+  margin-left: 11vw;
   text-decoration: none;
-  font-size:1.9vw;
+  font-size:1.7vw;
   font-family:맑은 고딕;
 
 }
@@ -82,8 +84,16 @@ h1 {
   
 }
 }
+#mobile
 @media (max-aspect-ratio: 3/4) {
-.topbar {
+h1 {
+    color: white;
+    text-align: left;
+    text-shadow: 1px 1px 4px black;
+    font-size: 5vw;
+    padding-left:2vw;
+}
+  .topbar {
   display: flex;
   flex-direction: column;
   align-items: center;
