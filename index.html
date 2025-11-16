@@ -4,6 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+      window.addEventListener("scroll", function () {
+        const footer = document.querySelector(".about_me_footer");
+
+        if (window.scrollY > 50) {
+          footer.style.opacity = "0";
+        } else {
+          footer.style.opacity = "1";
+        }
+      });
+    </script>
 </head>
  <header class="topbar">
   <h1>Cressyn</h1>
@@ -21,18 +32,31 @@
   </nav>
 </header>
 <body>
-  <images>
-    <img src="https://i.imgur.com/mKSy9MF.jpeg" style="height: 60vh">
-    <center_imgs>
-      <center_2>
-        <img src="https://i.imgur.com/yLwGiS8.jpeg" style="height: 20vh">
-        <img src="https://i.imgur.com/kuCqJAQ.png" style="height: 20vh">
-      </center_2>  
-      <img src="https://i.imgur.com/Md97E36.jpeg" style="height: 30vh">
-    </center_imgs>
-    <img src="https://i.imgur.com/vHLGWXc.jpeg" style="height: 60vh">
-  </images>
+
+    
+
+  <div class="gallery">
+    <img class="side-img" src="https://i.imgur.com/mKSy9MF.jpeg">
+
+    <div class="center-column">
+      <div class="top-row">
+        <img class="half-img" src="https://i.imgur.com/yLwGiS8.jpeg">
+        <img class="half-img" src="https://i.imgur.com/kuCqJAQ.png">
+      </div>
+      <img class="bottom-img" src="https://i.imgur.com/Md97E36.jpeg">
+    </div>
+
+    <img class="side-img" src="https://i.imgur.com/vHLGWXc.jpeg">
+  </div>
+<div class="about_me_footer">
+  <a href="#bottom">About Me</a>
+</div>
+  
+ <div id="bottom"></div> 
 </body>
+
+
+
   
   
   
