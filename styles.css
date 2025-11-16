@@ -1,16 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
    background: linear-gradient(
      -45deg,
-     #1b1b1b 0%,
-     #2b2c2b 100%
+     #0D0D0D 0%,
+     #1A1A1A 60%,
+     #363636 100%
    );
-   min-height: 100vh;
+   min-height: 200vh;
    min-width: 100vw;
-   
+                            #DEBUG;
+   border:3px solid blue;
 }
 
 
-@media (min-aspect-ratio: 3/4) {
+
+@media (min-aspect-ratio: 1) {
 h1 {
     color: white;
     text-align: left;
@@ -18,6 +24,90 @@ h1 {
     font-size: 5vw;
     padding-left:2vw;
 }
+.about_me_footer {
+  text-align: center;
+  color: white;
+  font-size:1.7vw;
+  font-family:맑은 고딕;
+  margin-top:2%;
+  height:2%;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+  }
+.about_me_footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.gallery {
+  height: 70%;
+  max-width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:2.5%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 1%;
+                            #DEBUG;
+   border:3px solid red;
+}
+
+/* SIDE IMAGES*/
+.side-img {
+  max-height: 100%;
+  min-width: 20%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+
+}
+
+/* CENTER COLUMN*/
+.center-column {
+  border:5px;
+  border-color:black;
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+                            #DEBUG;
+   border:3px solid green;
+}
+
+/* TOP ROW — two images */
+.top-row {
+  
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+                            #DEBUG;
+   border:3px solid yellow;
+}
+
+/* Top images*/
+.half-img {
+  height: 100%;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+  
+}
+
+/* Bottom middle image*/
+.bottom-img {
+  max-height: 70%;
+  width: 100%;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+  
+}  
+  
 }
 .topbar {
   display: flex;
@@ -84,6 +174,22 @@ h1 {
   
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #mobile
 @media (max-aspect-ratio: 3/4) {
 h1 {
