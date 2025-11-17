@@ -44,7 +44,7 @@ body {
   position: fixed;
   align-items: center;
   justify-content: space-between;
-  margin-right:24vw
+  margin-right:5vw
   
 }
 
@@ -58,9 +58,9 @@ body {
 
 .topbar nav a {
   color: white;
-  margin-left: 11vw;
+  margin-right: 16vw;
   text-decoration: none;
-  font-size:1.7vw;
+  font-size:1.4vw;
   font-family:맑은 고딕;
 
 }
@@ -72,7 +72,6 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
-
 }
 
 .dropdown-menu {
@@ -196,7 +195,7 @@ body {
   padding: 40px;
   margin-top:20%;
   margin-bottom:20%;
-                              border:1px solid red;
+                              #border:1px solid red;
 }
 
 .about_me_content {
