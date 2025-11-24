@@ -1,0 +1,56 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ <header class="topbar">
+  <h1>Cressyn</h1>
+  <nav>
+    <div class="dropdown">
+      <a href="#">Photography</a>
+      <div class="dropdown-menu">
+        <a href="#">Portraits</a>
+        <a href="#">Creative</a>
+        <a href="#">Product</a>
+      </div>
+    </div>
+      <a class="disappear_on_hover" href="#">Graphic Design</a>
+      <a class="disappear_on_hover" href="#">Art</a>
+  </nav>
+</header>
+<body>
+   
+<h1 class="page_title">
+  Creative
+  </h1>   
+  <div class="category_select">   
+<img class="center-img" src="https://i.imgur.com/vvt1OS2.png">
+    <h3>
+      <p class="image-title">
+        Image Title
+      </p>
+      <p class="image-description">
+        image description
+      </p>      
+    </h3>
+<img class="center-img" src="https://i.imgur.com/vvt1OS2.png">
+    <h3>
+      <p class="image-title">
+        Image Title
+      </p>
+      <p class="image-description">
+        image description
+      </p>      
+    </h3>    
+  </div>
+</body>
+
+
+
+  
+  
+  
+</html>
