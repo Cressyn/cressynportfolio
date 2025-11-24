@@ -27,6 +27,7 @@ body {
     left: 0;
     width:100%;
     display:flex;
+    
     #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
   }
   
@@ -37,6 +38,7 @@ body {
     text-shadow: 1px 1px 4px black;
     font-size: 5vw;
     padding-left:2vw;
+    
 }
   .page_title {
      text-align: center;
@@ -53,11 +55,12 @@ body {
 }
 
 
-.topbar h1 {
+.topbar a {
   margin: 0;
   color: white;
   font-family:blacksword;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .topbar nav a {
@@ -147,7 +150,13 @@ body {
   align-items: center;
   gap: 4%;
   }
-
+  
+  .image-title {
+    
+  }
+  .image-description {
+    font-weight:10;
+  }
 /* CENTERED IMAGES*/
 .center-img {
   max-height: 100%;
