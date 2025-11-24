@@ -55,14 +55,17 @@ body {
 }
 
 
-.topbar a {
+.topbar h1 {
   margin: 0;
   color: white;
   font-family:blacksword;
   font-weight: normal;
   text-decoration: none;
 }
-
+.topbar h1 a {
+  color: white;
+  text-decoration: none;
+}
 .topbar nav a {
   color: white;
   margin-right: 16vw;
