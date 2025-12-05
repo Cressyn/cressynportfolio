@@ -121,6 +121,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:1%;
 }
   
 .category_select {
@@ -205,7 +206,16 @@ h1 {
   height: auto;
   gap:2%;
 }
-
+  
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  gap:2%;
+  display: none;
+  pointer-events: none;
+}
+  
 .half-img {
   height: auto;
   width: 50%;
@@ -274,13 +284,13 @@ h1 {
 
 
 
-
-
-
-
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-
-
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
 
 
 
@@ -298,16 +308,19 @@ h1 {
     left: 0;
     width:100%;
     display:flex;
+    
     #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+                                                   #DEBUG;
+                                                   border:3px solid blue;
   }
   
 h1 {
     color: white;
-    text-align: left;
+    text-align: center;
     text-shadow: 1px 1px 4px black;
-    font-size: 5vw;
-    padding-left:2vw;
-    
+    font-size: 8vw;
+                                                   #DEBUG;
+                                                   border:3px solid red;    
 }
 .page_title {
     text-align: center;
@@ -336,6 +349,7 @@ h1 {
 .topbar h1 a {
   color: white;
   text-decoration: none;
+  
 }
   
 .topbar nav a {
@@ -353,6 +367,7 @@ h1 {
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
 
 .dropdown-menu {
@@ -381,6 +396,7 @@ h1 {
   opacity:1;
   transition: opacity 0.2s ease;
   visibility: visible;
+  
 }
   
 .dropdown:hover ~ .disappear_on_hover {
@@ -389,14 +405,17 @@ h1 {
 }
 
 .gallery {
-  height: 60%;
-  max-width: 90%;
-  margin-left:5%;
-  margin-right:5%;
-  margin-top:10%;
+  height: auto;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+                                                   #DEBUG;
+                                                   border:3px solid red;
 }
   
 .category_select {
@@ -453,7 +472,8 @@ h1 {
     width:auto;
     border-radius: 10px;
     box-shadow: 1px 1px 4px black;
-    transform: skewY(2deg);
+    display: none;
+    pointer-events: none;
   }
   
 .right-img {
@@ -461,14 +481,16 @@ h1 {
     width:auto;
     border-radius: 10px;
     box-shadow: 1px 1px 4px black;
-    transform: skewY(-2deg);
+    display: none;
+    pointer-events: none;
   }
 
 .center-column {
   border:5px;
   border-color:black;
   aspect-ratio: 1;
-  height: 100%;
+  height: auto;
+  width:100%;
   gap:2%;
   display: flex;
   flex-direction: column;
@@ -481,7 +503,15 @@ h1 {
   height: auto;
   gap:2%;
 }
-
+  
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width:100%;
+  gap:2%;
+  margin-top:2%;
+}
 .half-img {
   height: auto;
   width: 50%;
