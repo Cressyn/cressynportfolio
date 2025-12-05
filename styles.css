@@ -87,12 +87,16 @@ body {
   font-weight:100;
   text-shadow: 1px 1px 4px black;
   position: absolute;
-  top: 0%;
+  top: -70%;
   left: 70%; 
   visibility: hidden;  
   opacity: 0;
   transform: translateX(-12vw);
   transition: opacity 0.3s ease, transform 0.3s ease;
+  padding-top:5%;
+  padding-bottom:5%;
+                                #DEBUG;
+                                                   #border:1px solid red;
 }
 
 .dropdown:hover .dropdown-menu {
