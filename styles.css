@@ -3,7 +3,7 @@ html {
 }
 body {
                               #DEBUG;
-                                                   border:1px solid red;
+                                                   #border:1px solid red;
    background: linear-gradient(
      -45deg,
      #0D0D0D 0%,
@@ -127,7 +127,7 @@ body {
   
   gap: 1%;
                               #DEBUG;
-                                                   border:1px solid red;
+                                                   #border:1px solid red;
 }
 .category_select_titles {
   
@@ -170,14 +170,20 @@ body {
 
 }
 /* SIDE IMAGES*/
-.side-img {
-  max-height: 100%;
-  width:auto;
-  border-radius: 10px;
-  box-shadow: 1px 1px 4px black;
-
-}
-
+.left-img {
+    max-height: 100%;
+    width:auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    transform: skewY(2deg);
+  }
+.right-img {
+    max-height: 100%;
+    width:auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+    transform: skewY(-2deg);
+  }
 /* CENTER COLUMN*/
 .center-column {
   border:5px;
@@ -185,7 +191,7 @@ body {
   aspect-ratio: 1;
   height: 100%;
                               #DEBUG;
-                                                   border:1px solid blue;
+                                                   #border:1px solid blue;
   gap:2%;
   display: flex;
   flex-direction: column;
@@ -198,7 +204,7 @@ body {
 /* TOP ROW — two images */
 .top-row {
                               #DEBUG;
-                                                   border:1px solid green;  
+                                                   #border:1px solid green;  
   display: flex;
   justify-content: space-between;
   height: auto;
@@ -214,7 +220,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
                               #DEBUG;
-                                                   border:1px solid yellow;  
+                                                   #border:1px solid yellow;  
 }
 
 /* Bottom middle image*/
@@ -225,7 +231,7 @@ body {
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
                               #DEBUG;
-                                                   border:1px solid lime;  
+                                                   #border:1px solid lime;  
   }
                                           /*ABOUT ME*/ 
   
@@ -251,7 +257,7 @@ body {
   padding: 40px;
   margin-top:20%;
   margin-bottom:5%;
-                              border:1px solid red;
+                              #border:1px solid red;
 }
 
 .about_me_content {
