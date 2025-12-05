@@ -23,7 +23,6 @@ body {
     width:100%;
     display:flex;
     #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-    border:10px solid blue;
   }
   
 h1 {
@@ -300,7 +299,6 @@ h1 {
     width:100%;
     display:flex;
     #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-    border:10px solid red;
   }
   
 h1 {
