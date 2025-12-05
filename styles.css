@@ -40,9 +40,13 @@ body {
     
 }
   .page_title {
-     text-align: center;
+    text-align: center;
     padding-left:0vw;
-    padding-top:10vh;
+    margin-top:16vh;
+
+    font-size: 4vw;
+ #DEBUG;
+                                                   border:1px solid blue;  
     }  
  .topbar {
   display: flex;
@@ -133,21 +137,10 @@ body {
                               #DEBUG;
                                                    #border:1px solid red;
 }
-.category_select_titles {
-  
-  max-width: 90%;
-  margin-left:5%;
-  margin-right:5%;
-  margin-top:5%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4%;
-  }
 .category_select {
-  height: 70%;
-  max-width: 90%;
+  
+  width: 90%;
+  height:60%;
   margin-left:5%;
   margin-right:5%;
   margin-top:5%;
@@ -156,6 +149,28 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4%;
+                              #DEBUG;
+                                                   border:1px solid red;
+  }
+  .category {
+    height:100%;
+    max-width:33%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ #DEBUG;
+                                                   border:1px solid lime;   
+  }
+  .category_title h2 a {
+
+    color: white;
+    text-decoration: none;
+    font-size:100%;
+    font-weight:500;
+    font-family:맑은 고딕;
+ #DEBUG;
+                                                   border:1px solid blue;   
   }
   
   .image-title {
@@ -164,6 +179,12 @@ body {
   .image-description {
     font-weight:10;
   }
+  .category_image{
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px black;
+  }
+  
 /* CENTERED IMAGES*/
 .center-img {
   max-height: 100%;
