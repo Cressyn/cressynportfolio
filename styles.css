@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-
+                              #DEBUG;
+                                                   border:1px solid red;
    background: linear-gradient(
      -45deg,
      #0D0D0D 0%,
@@ -12,8 +13,6 @@ body {
 
     color: white;
   font-family:맑은 고딕;
-                            #DEBUG;
-                                     #border:3px solid blue;
 }
 
 
@@ -45,7 +44,7 @@ body {
     padding-left:0vw;
     padding-top:10vh;
     }  
-  .topbar {
+ .topbar {
   display: flex;
   position: fixed;
   align-items: center;
@@ -89,7 +88,7 @@ body {
   text-shadow: 1px 1px 4px black;
   position: absolute;
   top: 0%;
-  left: 100%; 
+  left: 70%; 
   visibility: hidden;  
   opacity: 0;
   transform: translateX(-12vw);
@@ -116,7 +115,7 @@ body {
 }
 
 .gallery {
-  height: 70%;
+  height: 60%;
   max-width: 90%;
   margin-left:5%;
   margin-right:5%;
@@ -127,10 +126,11 @@ body {
   align-items: center;
   
   gap: 1%;
-                            #DEBUG;
-                                                   #border:3px solid red;
+                              #DEBUG;
+                                                   border:1px solid red;
 }
 .category_select_titles {
+  
   max-width: 90%;
   margin-left:5%;
   margin-right:5%;
@@ -172,7 +172,7 @@ body {
 /* SIDE IMAGES*/
 .side-img {
   max-height: 100%;
-  min-width: 20%;
+  width:auto;
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
 
@@ -182,12 +182,14 @@ body {
 .center-column {
   border:5px;
   border-color:black;
-  width: 40%;
+  aspect-ratio: 1;
   height: 100%;
-
+                              #DEBUG;
+                                                   border:1px solid blue;
+  gap:2%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   
                             #DEBUG;
                                                    #border:3px solid green;
@@ -195,34 +197,40 @@ body {
 
 /* TOP ROW — two images */
 .top-row {
-  
+                              #DEBUG;
+                                                   border:1px solid green;  
   display: flex;
   justify-content: space-between;
-  height: 30%;
+  height: auto;
+  gap:2%;
                             #DEBUG;
                                                  #border:3px solid yellow;
 }
 
 /* Top images*/
 .half-img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 50%;
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
-  
+                              #DEBUG;
+                                                   border:1px solid yellow;  
 }
 
 /* Bottom middle image*/
 .bottom-img {
-  max-height: 70%;
+  height:auto;
   width: 100%;
   align-self: center;
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
+                              #DEBUG;
+                                                   border:1px solid lime;  
   }
                                           /*ABOUT ME*/ 
   
 .about_me_footer {
+  
   text-align: center;
   color: white;
   font-family:맑은 고딕;
@@ -242,8 +250,8 @@ body {
 .about_me {
   padding: 40px;
   margin-top:20%;
-  margin-bottom:20%;
-                              #border:1px solid red;
+  margin-bottom:5%;
+                              border:1px solid red;
 }
 
 .about_me_content {
@@ -332,8 +340,8 @@ h1 {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
+  
 
 }
 
@@ -369,5 +377,3 @@ h1 {
   
 }
 }
-
-
