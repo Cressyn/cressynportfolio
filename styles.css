@@ -154,6 +154,9 @@ h1 {
     font-family:맑은 고딕;  
   }
   
+.category_title h2 a:hover {
+    text-decoration:underline; 
+  }  
 .image-description {
     font-weight:10;
   }
@@ -311,7 +314,7 @@ h1 {
     
     #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
                                                    #DEBUG;
-                                                   border:3px solid blue;
+                                                   #border:3px solid blue;
   }
   
 h1 {
@@ -320,13 +323,13 @@ h1 {
     text-shadow: 1px 1px 4px black;
     font-size: 8vw;
                                                    #DEBUG;
-                                                   border:3px solid red;    
+                                                   #border:3px solid red;    
 }
 .page_title {
     text-align: center;
     padding-left:0vw;
-    margin-top:16vh;
-    font-size: 4vw;
+    margin-top:12vh;
+    font-size: 10vw;
     }  
   
 .topbar {
@@ -408,37 +411,42 @@ h1 {
   align-items: center;
   flex-direction: column;
                                                    #DEBUG;
-                                                   border:3px solid red;
+                                                   #border:3px solid red;
 }
   
 .category_select {
-  width: 90%;
-  height:60%;
-  margin-left:5%;
-  margin-right:5%;
+  width: 80%;
+  height:40%;
+  margin-left:10%;
+  margin-right:1%;
   margin-top:0%;
-  margin-bottom:10%;
+  margin-bottom:100%;
   display: flex;
   justify-content: center;
+  
   align-items: center;
   gap: 4%;
   }
   
 .category {
-    height:100%;
-    max-width:33%;
+    height:80%;
+    width:28vw;
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column; 
   }
   
 .category_title h2 a {
     color: white;
     text-decoration: none;
-    font-size:100%;
+    font-size:80%;
     font-weight:500;
     font-family:맑은 고딕;  
+  }
+  
+.category_title h2 a:hover {
+    text-decoration:underline; 
   }
   
 .image-description {
