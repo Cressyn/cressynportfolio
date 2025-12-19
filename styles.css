@@ -2,8 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-                                                   #DEBUG;
-                                                   #border:1px solid red;
    background: linear-gradient(
      -45deg,
      #0D0D0D 0%,
@@ -22,7 +20,6 @@ body {
     left: 0;
     width:100%;
     display:flex;
-    #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
   }
   
 h1 {
@@ -173,7 +170,6 @@ h1 {
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
 
-
 }
 
 .left-img {
@@ -303,22 +299,7 @@ h1 {
 }
 
 
-
-
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-/*MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
-
-
-
-
-
-
-
+/*MOBILE*/
 
 
 @media (max-width: 599px) and (min-width:0px){
@@ -329,10 +310,6 @@ h1 {
     left: 0;
     width:100%;
     display:flex;
-    
-    #-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-                                                   #DEBUG;
-                                                   #border:3px solid blue;
   }
   
 h1 {
@@ -340,9 +317,8 @@ h1 {
     text-align: center;
     text-shadow: 1px 1px 4px black;
     font-size: 8vw;
-                                                   #DEBUG;
-                                                   #border:3px solid red;    
 }
+  
 .page_title {
     text-align: center;
     padding-left:0vw;
@@ -413,10 +389,7 @@ h1 {
   opacity:1;
   transition: opacity 0.2s ease;
   visibility: visible;
-  
 }
-  
-
 
 .gallery {
   height: auto;
@@ -428,8 +401,6 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-                                                   #DEBUG;
-                                                   #border:3px solid red;
 }
   
 .category_select {
